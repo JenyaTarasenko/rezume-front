@@ -1,0 +1,161 @@
+
+
+.new-detail-image {
+
+    display: block; /* Убирает лишние отступы */
+    width: 100vw; /* Ширина на весь экран */
+    height: 200px; /* Фиксированная высота */
+    object-fit: cover; /* Масштабирует изображение, чтобы заполнить контейнер, сохраняя пропорции */
+    object-position: center;
+
+}
+.detail-project {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; /* Высота секции на весь экран */
+    background-color: #222222;
+    padding: 20px;
+    flex-direction: column;
+   
+
+}
+
+.detail-image {
+
+    display: flex; /* Чтобы использовать flex для выравнивания */
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: flex-start; /* Выравнивание по вертикали, если нужно - по верхнему краю */
+    width: 100%;
+    max-width: 500px;
+ 
+
+
+}
+
+.detail-image img {
+    width: 100%; /* Изображение будет растягиваться по ширине, но не больше 500px */
+    height: auto; /* Сохраняет пропорции */
+}
+.detail-text {
+
+    display: flex;
+    padding: 0 40px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.detail-text h1{
+
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #9900ff;
+    line-height: 0.9;
+    text-shadow: 0 0 10px rgba(153, 0, 255, 0.7), 0 0 15px rgba(153, 0, 255, 0.5), 0 0 20px rgba(153, 0, 255, 0.3);
+
+    
+}
+.detail-description {
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+
+
+}
+.detail-description h2 {
+
+
+    color: #E0E0E0;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #E0E0E0;
+    letter-spacing: 2px;
+    font-size: 17px;
+
+}
+
+.detail-description p {
+
+
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #9900ff;
+    line-height: 0.9;
+    text-shadow: 0 0 10px rgba(153, 0, 255, 0.7), 0 0 15px rgba(153, 0, 255, 0.5), 0 0 20px rgba(153, 0, 255, 0.3);
+
+}
+.detail-conteiner-image-item {
+
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center; /* Разделение элементов по краям */
+    gap:30px;
+    padding: 20px;
+
+
+}
+.detail-text-conteiner h5{
+
+    font-size: 50px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #E0E0E0;
+
+
+}
+.detail-text-conteiner {
+
+    flex: 1; /* Левая колонка занимает оставшееся пространство */
+    max-width: 600px; /* Максимальная ширина текста */
+
+
+}
+.detail-conteiner-image img{
+
+    width: 400px; /* Фиксированная ширина изображения */
+    height: 400px; /* Фиксированная высота изображения */
+    object-fit: cover;
+
+}
+.detail-style-text {
+
+    display: flex;
+    flex-direction: column-reverse;
+
+
+}
+.image-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    overflow: hidden; /* Обрезает изображение, если оно больше контейнера */
+    position: relative;
+}
+.mage-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; 
+}
+
+.detail-line {
+
+    width: 100px;
+    border: none;
+    height: 5px;
+    background-color: rgb(153, 0, 255); /* Цвет линии */
+    margin: 20px 0; /* Отступы сверху и снизу */
+}

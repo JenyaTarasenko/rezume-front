@@ -1,0 +1,113 @@
+.nav-link {
+
+    color:#7d7d7d!important;
+    
+}
+
+
+.navbar-toggler:focus {
+    outline: none; /* Убирает обводку */
+    box-shadow: none; /* Убирает тень (если она есть) */
+}
+
+
+.custom-toggler {
+    border: none !important; /* Убираем обводку */
+    outline: none !important; /* Убираем обводку при фокусе */
+    box-shadow: none !important; /* Убираем тень */
+}
+  .custom-toggler .navbar-toggler-icon {
+    background-color: white; /* Задаем цвет кнопки */
+    width: 30px; /* Размер кнопки */
+    height: 3px; /* Толщина полосок */
+    border-radius: 2px; /* Скругляем края */
+    box-shadow: none; /* Убираем тени */
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color:  #c3c2c2!important;
+}
+
+.navbar-nav .nav-link:hover{
+
+    color:white !important;
+
+
+
+}
+.custom-toggler {
+    border: none;
+    background: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; /* Еще больше */
+    height: 50px; /* Еще больше */
+    transition: background-color 0.3s ease-in-out;
+}
+  
+
+/* Меняем цвет линий бургера при наведении */
+.custom-toggler:hover svg path {
+    stroke: white;
+    transform: scale(1.05);
+}
+  
+/* Увеличенная SVG-иконка */
+.custom-toggler svg {
+    width: 70px;  /* Сделали крупнее */
+    height: 70px;
+}
+
+/* Линии бургера толще */
+.custom-toggler svg path {
+    stroke-width: 6; /* Увеличили толщину линий */
+    transition: stroke 0.3s ease-in-out;
+}
+  
+  /* Верхняя линия */
+.top-line {
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+    position: relative;
+}
+  
+.top-line.open {
+    transform: rotate(45deg);
+    transform-origin: center;
+    top: 7px; /* Перемещаем линию вверх */
+}
+  
+  /* Средняя линия */
+.middle-line {
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.middle-line.open {
+    opacity: 0;
+}
+  
+  /* Нижняя линия */
+.bottom-line {
+    transition: transform 0.3s ease-in-out, bottom 0.3s ease-in-out;
+    position: relative;
+}
+  
+.bottom-line.open {
+    transform: rotate(-45deg);
+    transform-origin: center;
+    bottom: 7px; /* Перемещаем линию вниз */
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

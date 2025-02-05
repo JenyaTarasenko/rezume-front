@@ -1,0 +1,56 @@
+.bast-box_conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #222222;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.bast-box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.box-avatar {
+
+  
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bast-box_items h4 {
+
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #E0E0E0;
+}
+.bast-box_description  {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+.bast-box_description p{
+
+    font-size: 12px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #E0E0E0;
+    letter-spacing: 2px;
+
+
+}

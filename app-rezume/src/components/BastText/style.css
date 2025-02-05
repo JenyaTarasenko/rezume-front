@@ -1,0 +1,30 @@
+.bast-section-item-bast {
+
+  background-color: #222222;
+  display: flex;
+  justify-content: center; /* Поджимает flex-контейнер к правому краю */
+  align-items: center; /* Выравнивает по вертикали */
+  height: 300px;
+  
+    
+}
+.bast-items-item-bast {
+  /* max-width: 300px; */
+  
+}
+  
+.bast-items-item-bast h3 {
+  
+  font-family: "Open Sans", serif;
+  font-weight: 900;
+  font-size:50px;
+  text-transform: uppercase;
+  color:#9900ff;
+  line-height: 0.9;
+      /* text-shadow:0 0 10px 7px rgba(153, 0, 255, 0.7); */
+  text-shadow:0 0 10px rgba(153, 0, 255, 0.7), /* Основное свечение */
+              0 0 15px rgba(153, 0, 255, 0.5), /* Вторичное свечение */
+              0 0 20px rgba(153, 0, 255, 0.3);
+      
+      
+}

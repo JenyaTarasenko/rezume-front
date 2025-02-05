@@ -1,0 +1,123 @@
+.first-section {
+
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.first-conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+    gap:30px;
+}
+.first-items-description {
+
+    display: flex;
+    width: 500px;
+    text-align: left;
+  
+
+}
+.first-items-name{
+
+    display: flex;
+  
+    width: 500px;
+
+}
+.first-items-name p {
+
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color:#ffff;
+}
+.first-items {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+}
+.first-items h1 {
+
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+    font-size:70px;
+    text-transform: uppercase;
+    color:#9900ff;
+    /* color:#565656; */
+    line-height: 0.9;
+    /* -webkit-text-stroke: 1px #9900ff; */
+
+}
+
+.first-items-description h2{
+
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size:25px;
+    color:#E0E0E0;
+    line-height: 1;
+
+}
+.first-image {
+
+    background-image: url(../../images/jenya.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 375px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.button-style {
+
+    display: flex;
+
+
+
+}
+.bimba-section-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    
+
+
+}
+.bimba-section {
+
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+   
+
+
+}
+
+
+.bimba-section-img {
+
+    fill:#ffff;
+    transition: fill 0.3s ease; 
+    
+} 
+
+.bimba-section-img:hover {
+
+    fill: #9900ff; /* Белый цвет при наведении */
+}

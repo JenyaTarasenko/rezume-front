@@ -1,0 +1,30 @@
+
+
+.home-btn {
+
+    width: 312px;
+    height: 60px;
+    background-color:#222222; /* Цвет кнопки */
+    color: #E9EBEB; /* Цвет текста */
+    border: none; /* Убирает рамку */
+    font-size: 16px; /* Размер текста */
+    cursor: pointer;
+    margin-top: 20px;
+    line-height: 33,5px;
+    letter-spacing: 5px;
+    border: 1px solid #9900ff;
+    box-shadow: 0 0 10px 2px rgba(153, 0, 255, 0.7)
+
+}
+.home-btn:hover {
+    background-color: #9900ff;  /* Изменение цвета при ховере */
+    transform: scale(1.01);  /* Легкое увеличение кнопки */
+    box-shadow: 0 0 10px 4px rgba(153, 0, 255, 0.7)
+}
+  
+  .home-btn:active {
+    transform: scale(0.7);  /* Эффект нажатия — уменьшение кнопки */
+    background-color: #9900ff;  /* Изменение цвета при нажатии */
+}
+
+

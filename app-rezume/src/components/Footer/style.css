@@ -1,0 +1,91 @@
+.footer-section {
+
+    display: flex;
+    background-color: #191919;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+}
+.footer-social {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+
+}
+.footer-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.footer-menu li {
+    margin: 0 15px;
+    
+}
+.footer-menu li a {
+
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #9900ff;
+    
+}
+
+.footer-menu li a:hover {
+    color:#E0E0E0; /* Цвет текста при наведении */
+}
+
+.footer-tel {
+
+    display: flex;
+    justify-content:right;
+
+    flex-direction: column;
+}
+
+.footer-tel a {
+
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color:#E0E0E0;
+
+
+
+}
+.line-style-footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    fill: #ffff;
+    transition: fill 0.3s ease;
+
+
+}
+
+.line-style-footer:hover {
+
+    fill: #9900ff; /* Белый цвет при наведении */
+}

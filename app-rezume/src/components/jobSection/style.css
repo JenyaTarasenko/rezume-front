@@ -1,0 +1,73 @@
+.job-section {
+
+    display: flex;
+    background-color: #222222;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+.job-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.job-card {
+
+    width: 250px;
+    height: 300px;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 30px;
+    opacity: 70%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    border: 1px solid #9900ff;
+}
+.job-card-icon{
+
+    display: flex;
+    margin-left: 30px;
+
+}
+.git-logo {
+
+    width: 50px;
+    height:50px;
+    fill:#E0E0E0; 
+}
+
+.django-logo {
+
+    width: 70px;
+    height:70px;
+    fill:#E0E0E0; 
+
+
+}
+.job-description {
+
+    display: flex;
+    text-align: left;
+    padding: 0 30px;
+}
+
+.job-description h6{
+
+    color: #E0E0E0;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #E0E0E0;
+    letter-spacing: 2px;
+    font-size: 14px;
+
+}

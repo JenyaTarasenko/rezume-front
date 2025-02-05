@@ -1,0 +1,88 @@
+.section-button {
+
+    display: flex;
+    background-color: #222222;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.section-button-conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: row;
+
+
+}
+.button-left-style {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.button-line {
+
+    width: 4px; /* Толщина линии */
+    height: 100px; /* Высота линии */
+    background-color:rgb(153, 0, 255); /* Цвет линии */
+    margin: 0 auto; /* Центровка */
+}
+
+.button-left-style {
+
+    display: flex;
+    align-items: flex-end; 
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.button-left-style h5 {
+
+  
+    margin: 0;
+    font-size: 50px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #E0E0E0;
+}
+
+.section-button-card {
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.button-right-style {
+    display: flex;
+    justify-content: flex-start; /* Элементы выровнены по левому краю */
+    align-items: flex-end; 
+
+
+}
+.button-left-conteiner-text {
+    display: flex;
+    justify-content: flex-start; /* Элементы выровнены по левому краю */
+    align-items: flex-end; 
+
+}
+.button-line {
+
+    width: 5px; /* Толщина линии */
+    height: 50px; /* Высота линии */
+    background-color:rgb(153, 0, 255); /* Цвет линии */
+    margin: 0 auto; /* Центровка */
+}
+ 

@@ -1,0 +1,124 @@
+.card-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#222222;
+    height: 500px;
+
+}
+.card-conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+    flex-wrap: wrap;
+
+}
+
+.glass-card  a {
+
+    text-decoration: none;
+}
+
+.no-link-style {
+    text-decoration: none;
+    color: inherit;
+}
+  
+.no-link-style:hover {
+    text-decoration: none;
+    color: inherit;
+  
+}
+.glass-card {
+
+    width: 300px;
+    height: 400px;
+    background-color: #37373782;
+    border-radius: 30px;
+    opacity: 70%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+ 
+    transition: box-shadow 0.3s ease; /* Плавный переход для тени */
+
+}
+/* Легкая тень при наведении */
+.glass-card:hover {
+    box-shadow:0 0 10px rgba(153, 0, 255, 0.7), 
+                0 0 15px rgba(153, 0, 255, 0.5), 
+                0 0 20px rgba(153, 0, 255, 0.3);
+}
+
+/* Более выраженная тень при нажатии */
+.glass-card:active {
+ 
+    box-shadow:0 0 10px rgba(153, 0, 255, 0.7), 
+                0 0 15px rgba(153, 0, 255, 0.5), 
+                0 0 20px rgba(153, 0, 255, 0.3);
+}
+
+
+.card-description,
+.card-items,
+.card-link {
+
+    display: flex;
+    text-align: left;
+    padding: 0 40px;
+}
+.card-description h5 {
+
+    font-size: 20px;
+    color: #E0E0E0;
+}
+
+.card-logo {
+
+
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-left: 30px; /* Сдвинуть вправо */
+    margin-top: 40px; 
+
+}
+
+.card-link {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.size-6 {
+
+    stroke: #9900ff; 
+   
+}
+.card-items p {
+
+    font-size: 18px;
+    color: #E0E0E0;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #E0E0E0;
+    letter-spacing: 2px;
+
+
+}
+.card-link a{
+
+    font-size: 16px;
+    
+    color: #9900ff;
+    line-height: 0.9;
+    text-shadow: 0 0 10px rgba(153, 0, 255, 0.7), 0 0 15px rgba(153, 0, 255, 0.5), 0 0 20px rgba(153, 0, 255, 0.3);
+    text-decoration: none;
+
+}

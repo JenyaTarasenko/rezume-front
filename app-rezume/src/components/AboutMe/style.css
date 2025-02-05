@@ -1,0 +1,59 @@
+.about-me-section {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #222222;
+    gap: 30px;
+    flex-wrap: wrap;
+    height: 600px;
+
+
+}
+.about-me-conteiner {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+
+
+}
+
+.about-me-image img {
+   
+    width: 450px;
+    object-fit: cover; /* Сохраняет пропорции картинки, заполняя контейнер */
+}
+
+.about-me-description h2 {
+
+
+
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #E0E0E0;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+
+}
+.about-me-description p {
+
+    color: #E0E0E0;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #E0E0E0;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.about-me-description{
+
+    width: 400px;
+
+}
+
