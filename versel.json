@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "app-rezume/package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "buildCommand": "npm install && npm run build",
+          "outputDirectory": "app-rezume/build"
+        }
+      }
+    ],
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
+  
