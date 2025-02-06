@@ -22,7 +22,7 @@ function DetailSection(){
                 setError(error);
                 setLoading(false);
             });
-            console.log("API URL: ", process.env.REACT_APP_API_URL);
+            
     }, [id]); // id - зависимость, чтобы запрос выполнялся при изменении id
 
     if (loading) {
@@ -36,8 +36,7 @@ function DetailSection(){
     if (!project) {
         return <div>Проект не найден.</div>;
     }
-    console.log(`${process.env.REACT_APP_API_URL}/media/projects/three.jpg`);
-    console.log(`${process.env.REACT_APP_API_URL}/media/projects/three.jpg`);
+
 
     return(
 
@@ -62,10 +61,10 @@ function DetailSection(){
                     
                 </div>
                 <div className='detail-conteiner-image'>
-                    <img src={`http://localhost:8001${project.image_logo}`} />
+                    <img src={`http://localhost:8001${project.image_logo}`} alt="detail"/>
                     <img src={project.image_logo}/>
                     <img
-                        src={`${process.env.REACT_APP_API_URL}/media/projects/${project.image}`}
+                        // src={`${process.env.REACT_APP_API_URL}/media/projects/${project.image}`}
                         alt={project.name}
                     />
                 </div>
@@ -76,8 +75,8 @@ function DetailSection(){
             </div>
 
             <div class="image-container">
-                <img src={`http://localhost:8001${project.image}`} />
-                <img src={`${process.env.REACT_APP_API_URL}/media/three.png`} alt="Example" />
+                <img src={`http://localhost:8001${project.image}`} alt="detail"/>
+                {/* <img src={`${process.env.REACT_APP_API_URL}/media/three.png`} alt="Example" /> */}
 
             </div>
 

@@ -19,11 +19,10 @@ function CardSection() {
     }, []); // Пустой массив зависимостей, чтобы запрос выполнялся только один раз
 
 
-      // Функция для обрезки текста до 10 слов
     const truncateText = (text, wordLimit) => {
-        const words = text.split(" "); // Разбиваем текст на массив слов
-        if (words.length <= wordLimit) return text; // Если слов меньше или равно лимиту, возвращаем текст
-        return words.slice(0, wordLimit).join(" ") + "..."; // Берем первые wordLimit слов и добавляем "..."
+        const words = text.split(" "); 
+        if (words.length <= wordLimit) return text; 
+        return words.slice(0, wordLimit).join(" ") + "...";
     };
 
     return (
@@ -53,7 +52,7 @@ function CardSection() {
                             </div>
                         </Link>    
                     ))
-                )}
+                )} 
             </div>
         </section>
     );
