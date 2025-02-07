@@ -1,9 +1,27 @@
 // import React, { useEffect, useState } from "react";
-// import {fetchProjects} from '../../services/api';
+import {fetchProjects} from '../../services/api';
 // import './style.css';
 // import { Link } from 'react-router-dom';
 
 
+  // useEffect(() => {
+  //   fetch(`${BASE_URL}/api/projects/`)
+  //     .then(response => {
+  //       if (!response.ok) {
+  //         throw new Error('Network response was not ok');
+  //       }
+  //       return response.json();
+  //     })
+  //     .then(data => {
+  //       setProjects(data);  
+  //       setLoading(false);   
+  //     })
+  //     .catch(error => {
+  //       console.error('Error:', error);
+  //       setError(error);    
+  //       setLoading(false);   
+  //     });
+  // }, []);  
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
@@ -17,24 +35,21 @@ const Projects = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    fetch('https://jenyadevelop.pythonanywhere.com/api/projects/')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(data => {
-        setProjects(data);  // Сохраняем данные в стейт
-        setLoading(false);   // Устанавливаем состояние загрузки в false
-      })
-      .catch(error => {
-        console.error('Error:', error);
-        setError(error);     // Сохраняем ошибку в стейт
-        setLoading(false);   // Завершаем загрузку
-      });
-  }, []);  // Пустой массив зависимостей, значит запрос выполняется только при монтировании компонента
+useEffect(()=>{
+  fetchProjects()
+    .then(data=>{
+      setProjects(data);
+      setLoading(false);
+    })
+    .catch(error=>{
+
+      setError(error);
+      setLoading(false);
+    });
+
+},[]);
+  
+  
 
   const truncateText = (text, length) => {
     if (text.length > length) {

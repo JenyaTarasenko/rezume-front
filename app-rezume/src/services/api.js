@@ -1,7 +1,7 @@
 import axios from "axios";
+import BASE_URL from "../config";
 
-
-const API_BASE_URL =process.env.REACT_APP_API_URL ||  "http://127.0.0.1:8001/api/projects/";
+const API_BASE_URL = `${BASE_URL}/api/projects/`;
 
 
 export const fetchProjects = async () => {
@@ -20,7 +20,7 @@ export const fetchProjects = async () => {
 export const fetchProjectById = async (id) => {
     try {
         const response = await axios.get(`${API_BASE_URL}${id}/`);
-        // const response = await fetch(`${API_BASE_URL}/api/projects/${id}/`);
+     
         return response.data;
     } catch (error) {
         console.error(`Ошибка при получении проекта с id=${id}:`, error);
