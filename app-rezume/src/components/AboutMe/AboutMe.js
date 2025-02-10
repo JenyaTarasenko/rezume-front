@@ -1,5 +1,5 @@
 import './style.css'
-import style from '../../images/My1.png';
+import style from '../../images/about.png';
 
 
 
