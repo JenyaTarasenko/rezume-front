@@ -1,4 +1,4 @@
-import { CloudinaryContext, Image } from 'cloudinary-react';
+
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { fetchProjectById } from '../../services/api';
