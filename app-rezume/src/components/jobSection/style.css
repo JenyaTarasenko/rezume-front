@@ -32,7 +32,25 @@
     gap: 30px;
     flex-direction: column;
     border: 1px solid #9900ff;
+
+    transition: box-shadow 0.3s ease; /* Плавный переход для тени */
 }
+
+.job-card:hover {
+
+    box-shadow:0 0 10px rgba(153, 0, 255, 0.7), 
+                0 0 15px rgba(153, 0, 255, 0.5), 
+                0 0 20px rgba(153, 0, 255, 0.3);
+}
+
+.job-card:active {
+ 
+    box-shadow:0 0 10px rgba(153, 0, 255, 0.7), 
+                0 0 15px rgba(153, 0, 255, 0.5), 
+                0 0 20px rgba(153, 0, 255, 0.3);
+}
+
+
 .job-card-icon{
 
     display: flex;

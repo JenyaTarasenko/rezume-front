@@ -73,7 +73,7 @@
 
 
 }
-.line-style-footer {
+.line-style-footer a{
 
     display: flex;
     justify-content: center;
@@ -85,7 +85,21 @@
 
 }
 
-.line-style-footer:hover {
+.line-style-footer a:hover {
 
     fill: #9900ff; /* Белый цвет при наведении */
+}
+
+.footer-link  {
+
+
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #9900ff;
+
+}
+
+.footer-link  li a:hover {
+    color:#E0E0E0; /* Цвет текста при наведении */
 }

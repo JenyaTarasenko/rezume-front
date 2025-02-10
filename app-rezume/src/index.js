@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';  // Стили Bootstrap
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // JS для интерактивных компонентов
 
 import './styles/media.css';
+import './styles/global.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

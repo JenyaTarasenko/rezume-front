@@ -41,7 +41,7 @@
     border-radius: 30px;
     opacity: 70%;
     display: flex;
-    gap: 30px;
+    gap: 15px;
     flex-direction: column;
  
     transition: box-shadow 0.3s ease; /* Плавный переход для тени */
@@ -62,9 +62,20 @@
                 0 0 20px rgba(153, 0, 255, 0.3);
 }
 
+.card-items {
+
+    display: flex;
+    text-align: left;
+    padding: 0 40px;
+    overflow: hidden;
+    height: 200px;
+    
+
+}
+
 
 .card-description,
-.card-items,
+
 .card-link {
 
     display: flex;
@@ -109,6 +120,9 @@
     font-weight: 400;
     color: #E0E0E0;
     letter-spacing: 2px;
+    /* white-space: nowrap; */
+    overflow: hidden; /* Скрываем текст, выходящий за пределы контейнера */
+    text-overflow: ellipsis; 
 
 
 }

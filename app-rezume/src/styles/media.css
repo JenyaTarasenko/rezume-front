@@ -32,6 +32,11 @@
 
         gap:0;
     }  
+    .about-me-section {
+
+        height: 900px;
+        margin-top: 50px;
+    }
 
 }
 @media (max-width: 600px) {
@@ -40,26 +45,29 @@
 
         justify-content: center;
     }
+    .about-me-section{
+
+        height: 900px;
+    }
    
     .about-me-image img {
 
-        width: 350px;
+        width: 250px;
+  
     } 
     .about-me-description  {
 
         width: 350px;
+        padding: 0 30px;
     }  
     
     .first-image {
 
-        width: 350px;
+        width: 300px;
 
 
     }
-    .first-image {
-
-        width: 350px;
-    }
+  
     .first-items-description h2 {
 
         font-size: 20px;
@@ -139,12 +147,12 @@
     }
 }
 @media (max-width: 888px) {
-
+/* 
     .about-me-section {
 
         height: 700px;
 
-    }
+    } */
    
 }
 @media (max-width: 840px) {
@@ -180,10 +188,7 @@
         padding: 20px;
     } */
 
-    .first-image  {
-
-        width: 400px;
-    }
+    
     .first-items-description  {
 
      
@@ -217,6 +222,7 @@
     .bast-items h3 {
 
         font-size: 30px;
+        padding: 20px;
     }
 
     /* .bast-items-conteiner {

@@ -21,7 +21,9 @@ import {fetchProjects} from '../../services/api';
   //       setError(error);    
   //       setLoading(false);   
   //     });
-  // }, []);  
+  // }, []); 
+  
+  
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
@@ -67,7 +69,7 @@ useEffect(()=>{
   }
 
   return (
-    <section className="card-section">
+    <section  id="projects" className="card-section">
       <div className="card-conteiner">
         {projects.length === 0 ? (
           <p>Нет проектов для отображения</p>
@@ -90,7 +92,7 @@ useEffect(()=>{
                 <div className="card-link">
                   {project.link && (
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      Перейти на проект
+                      View project
                     </a>
                   )}
                 </div>

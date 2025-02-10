@@ -9,7 +9,7 @@ const ButtonSection = ({ text, onClick, textClassName })=>{
 
         <div className="home-button">
 
-            <button className={`home-btn ${ textClassName|| ''}`} onClick={onClick}> {text}</button>
+            <a href="https://t.me/jenyatarasenko" target="_blank" rel="noopener noreferrer"><button className={`home-btn ${ textClassName|| ''}`} onClick={onClick}> {text}</button></a>
                    
         </div>
 

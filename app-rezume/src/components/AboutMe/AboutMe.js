@@ -1,5 +1,5 @@
 import './style.css'
-import style from '../../images/jenya.jpg';
+import style from '../../images/My1.png';
 
 
 
@@ -7,7 +7,7 @@ import style from '../../images/jenya.jpg';
 function AbouMe() {
     return (
 
-        <section className='about-me-section'>
+        <section id="about" className='about-me-section'>
             <div className='about-me-conteiner'>
                 <div className='about-me-image'>
                     <img src={style} />

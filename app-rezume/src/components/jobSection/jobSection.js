@@ -5,7 +5,7 @@ function JobSection(){
 
     return(
 
-        <section className='job-section'>
+        <section id="technology" className='job-section'>
             <div className='job-container'>
                 <div className='job-card'>
                     <div className='job-card-icon'>

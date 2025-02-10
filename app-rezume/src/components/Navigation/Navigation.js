@@ -1,40 +1,26 @@
 import './style.css';
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import React from 'react';
-// import { NavLink } from 'react-router-dom';
 
 
-// function NavigationBar() {
-//   return (
-//     <Navbar expand="lg" style={{ backgroundColor: '#222222' }}>
-//         <Container>
-          
-          
-//           <Navbar.Toggle aria-controls="basic-navbar-nav" 
-//           className="ms-auto"/>
-//           <Navbar.Collapse id="basic-navbar-nav">
-          
-//               <Nav className="w-100 justify-content-center">
-//                   <Nav.Link as={NavLink} to="/" exact>Home</Nav.Link>
-//                   <Nav.Link as={NavLink} to="/detail" exact>Detail</Nav.Link>
-//                   <Nav.Link as={NavLink} to="/" exact>Home</Nav.Link>
-//               </Nav>
-//           </Navbar.Collapse>
-//         </Container>
-//     </Navbar>
-//   );
-// }
-
-// export default NavigationBar;
-
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
+// import { useLocation } from 'react-router-dom';
+
 
 function NavigationBar() {
   const [isOpen, setIsOpen] = useState(false); // Стейт для отслеживания открытия меню
+
+  // const location = useLocation();
+
+
+  // useEffect (()=>{
+
+  //   if (location.pathname === "/"){
+
+  //     window.scrollTo(0,0);
+  //   }
+  // }, [location])
 
   const toggleMenu = () => {
     setIsOpen(!isOpen); // Переключаем открытие/закрытие меню
@@ -64,11 +50,14 @@ function NavigationBar() {
             <Nav.Link as={NavLink} to="/" exact>
               Home
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/detail" exact>
-              Detail
+            <Nav.Link as={Link} to="about" smooth={true} duration={500}>
+              About
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/" exact>
-              Contact
+            <Nav.Link as={Link} to="projects" smooth={true} duration={500}>
+              Projects
+            </Nav.Link>
+            <Nav.Link as={Link} to="technology" smooth={true} duration={500}>
+              My technology
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

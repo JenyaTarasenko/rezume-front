@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 1000px;
+    /* height: 1000px; */
     gap:30px;
 }
 .first-items-description {
@@ -71,11 +71,11 @@
 }
 .first-image {
 
-    background-image: url(../../images/jenya.jpg);
+    background-image: url(../../images/foto2.jpeg);
     background-position: center;
     background-size: cover;
     width: 500px;
-    height: 375px;
+    height: 800px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -110,14 +110,14 @@
 }
 
 
-.bimba-section-img {
+.bimba-section-img a {
 
     fill:#ffff;
     transition: fill 0.3s ease; 
     
 } 
 
-.bimba-section-img:hover {
+.bimba-section-img a:hover svg{
 
     fill: #9900ff; /* Белый цвет при наведении */
 }
