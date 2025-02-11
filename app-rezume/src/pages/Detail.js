@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer';
 import DetailSection from '../components/DetailSection/DetailSection';
 import SectionButton from '../components/SectionButton/SectionButton';
 import { Helmet } from "react-helmet";  // компонент SEO
+import favicon from "../../src/images/Im2.ico";
 
 
 
