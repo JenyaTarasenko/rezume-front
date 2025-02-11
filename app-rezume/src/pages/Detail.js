@@ -5,6 +5,7 @@ import DetailSection from '../components/DetailSection/DetailSection';
 import SectionButton from '../components/SectionButton/SectionButton';
 
 
+
 function DetailPage(){
 
     return(

@@ -68,14 +68,13 @@
     text-align: left;
     padding: 0 40px;
     overflow: hidden;
-    height: 200px;
+
     
 
 }
 
 
 .card-description,
-
 .card-link {
 
     display: flex;
@@ -85,7 +84,7 @@
 .card-description h5 {
 
     font-size: 20px;
-    color: #E0E0E0;
+    color: #ffffff;
 }
 
 .card-logo {
@@ -114,12 +113,11 @@
 }
 .card-items p {
 
-    font-size: 18px;
+    font-size: 14px;
     color: #E0E0E0;
     font-family: "Open Sans", serif;
     font-weight: 400;
-    color: #E0E0E0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     /* white-space: nowrap; */
     overflow: hidden; /* Скрываем текст, выходящий за пределы контейнера */
     text-overflow: ellipsis; 

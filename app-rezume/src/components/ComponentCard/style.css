@@ -1,0 +1,112 @@
+.component-card-section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.component-card-conteiner {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+
+}
+
+.style-description  p {
+/* 
+    font-size: 16px; */
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #E0E0E0;
+
+
+}
+
+
+.component-card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    /* height: 300px; */
+    padding: 20px;
+
+}
+
+.style-component {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 25px; */
+
+}
+
+.style-line {
+
+    width: 40px;
+    height: 130px;
+    background-color: rgb(153, 0, 255);
+    margin: 0 auto;
+
+
+}
+.style-line-git {
+
+    width: 40px;
+    height: 130px;
+    background-color: rgb(153, 0, 255);
+    margin: 0 auto;
+    height: 160px;
+
+
+}
+
+.style-line-django {
+
+    width: 40px;
+    height: 185px;
+    background-color: rgb(153, 0, 255);
+    margin: 0 auto;
+
+
+}
+.style-line-css {
+    width: 40px;
+    height: 140px;
+    background-color: rgb(153, 0, 255);
+    margin: 0 auto;
+}
+.style-line-react {
+
+    width: 40px;
+    height: 140px;
+    background-color: rgb(153, 0, 255);
+    margin: 0 auto;
+}
+
+
+
+
+
+.style-description {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9900ff2e;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.style-description p {
+
+    padding: 10px;
+}

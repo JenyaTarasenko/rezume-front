@@ -1,7 +1,7 @@
 import './style.css';
-import bastOne from "../../images/bast1.png";
-import bastTwo from "../../images/bast2.png";
-import bastTree from "../../images/bast3.png";
+import bastOne from "../../images/fuul-one.png";
+import bastTwo from "../../images/full-two.png";
+import bastTree from "../../images/full-three.png";
 
 
 function BasComponent() {

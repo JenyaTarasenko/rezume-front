@@ -13,6 +13,8 @@ import DetailSection from '../components/DetailSection/DetailSection';
 import AbouMe from '../components/AboutMe/AboutMe';
 import QuestionSection from '../components/QuestionSetion/QuestionSection';
 import SectionButton from '../components/SectionButton/SectionButton';
+import CreativeSection from "../components/CreativeSection/CreativeSection";
+import ComponentCard from "../components/ComponentCard/ComponentCard"
 
 import { Helmet } from "react-helmet";  // компонент SEO
 import favicon from "../../src/images/Im2.ico";
@@ -48,6 +50,7 @@ function HomePage(){
             <NavigationBar/>
             <FirstPage/>
             <AbouMe />
+            <CreativeSection />
             <QuestionSection />
             <JobSection/>
             <TextWho/>
@@ -57,6 +60,7 @@ function HomePage(){
             <BastSection  />
             <BastBox />
             <SectionButton />
+            <ComponentCard />
             <Footer/>
         </div>
     );

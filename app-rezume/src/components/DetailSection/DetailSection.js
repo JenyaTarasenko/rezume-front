@@ -57,7 +57,7 @@ function DetailSection(){
                 <div className='detail-text-conteiner'>
                     <div className='detail-style-text'>
                         <div className='detail-line'></div>
-                        <h5>Какие техи нологии я использовал</h5>
+                        <h5>My technologies</h5>
                     </div>
                     
                 </div>
